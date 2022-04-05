@@ -12,7 +12,7 @@ dataset = tf.keras.utils.get_file(
     'aclImdb_v1',
     url,
     untar=True,
-    catche_dir='.',
+    cache_dir='.',
     cache_subdir=''
 )
 dataset_dir = os.path.join(os.path.dirname(dataset), 'aclImdb')
